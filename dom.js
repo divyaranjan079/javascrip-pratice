@@ -21,12 +21,15 @@
 // console.dir(heading1);
 
 // if i want 1st element
-let firstele = document.querySelector("p");
-console.dir(firstele);
+// let firstele = document.querySelector("p");
+// console.dir(firstele);
 
 // if i want all element then we use querySelectorall
-let allelement = document.querySelectorAll("p");
-console.dir(allelement);
+// let allelement = document.querySelectorAll("p");
+// console.dir(allelement);
 
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+h2.innerText = h2.innerText + " i am learing";
 
 
